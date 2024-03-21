@@ -1,14 +1,101 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>My_Portfolio</title>
+    <link rel="icon" type="image/png"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdFtGNJcFGlzFXbhBP4a3LdYNP__40tZ4k0-xvHSqOEQ&s">
+    <!-- bootstrap links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <!-- css file link -->
+    <link rel="stylesheet" href="style.css">
+    <title>Sambhaji Portfolio</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+
+
 </head>
+
 <body>
-    <h>Hiiii SAMBHAJI</h>
+
+    <!-- navbaar starts here -->
+    <div class="nav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light  navigation-bar">
+            <a class="navbar-brand brand  brand-name focus-in-expand" href="#">Sambhaji</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse  nav-menu1  " id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item home">
+                        <a class="nav-link  nav-menu" href="#home"><span class="nav-items">HOME</span> <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item about">
+                        <a class="nav-link nav-menu" href="#about"><span class="nav-items">ABOUT</span> <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item Skills">
+                        <a class="nav-link nav-menu" href="#skills"><span class="nav-items">SKILLS</span> <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item Skills">
+                        <a class="nav-link nav-menu" href="#projects"><span class="nav-items">PROJECTS</span> <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item Skills ">
+                        <a class="nav-link nav-menu" href="#contacts"><span class="nav-items">CONTACT</span> <span class="sr-only">(current)</span></a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </nav>
+
+
+    </div>
+    <!-- navbaar ends here -->
+
+
+    <!-- Section part start here -->
+ <div class="main-container">
+    <!-- home section starts here -->
+    <section id="home" class="portfoliio-section">
+        <div class=" home-div"id="home-info" style="background-color:white;"> 
+              <span class="info side">HELLO !!!</span><br/>
+              <span class="info side">I AM  </span>
+              <span class=" info brand  "><span class="myname brand ">SAMBHAJI PATIL</span></span><br>
+              <span class=" info designation" > { "<span class="fullstack" >__FULL STACK DEVELOPER__</span>"}</span><br>
+              <button href="demo.pdf" class=" info rsmbtn">RESUME</button>
+
+        </div>
+    </section>
+    <!-- home section ends here -->
+
+    <section id="about" class="portfoliio-section">
+        <div class="about-div">
+            <h1>ABOUT</h1>
+        </div>
+      
+    </section>
+    <section id="skills" class="portfoliio-section">
+        <h1>SKILLS</h1>
+    </section>
+    <section id="projects" class="portfoliio-section">
+        <h1>PROJECTS</h1>
+    </section>
+    <section id="contacts" class="portfoliio-section">
+        <h1>CONTACTS</h1>
+    </section>
+ </div>
 </body>
+
 </html>
